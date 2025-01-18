@@ -93,7 +93,7 @@ padding: 36px 61px;
     background-color: rgb(220, 220, 220);
 }
 .card-2{
-    margin-left: 196px;
+    margin-left: 30px;
     margin-top: 30px;
     border: 1px solid whitesmoke;
     display: inline-block;
@@ -103,7 +103,7 @@ padding: 36px 61px;
     background-color: rgb(220, 220, 220);
 }
 .card-3{
-    margin-left: 196px;
+    margin-left: 30px;
     margin-top: 30px;
     border: 1px solid whitesmoke;
     display: inline-block;
@@ -123,7 +123,7 @@ padding: 36px 61px;
     background-color: rgb(220, 220, 220);
 }
 .card-5{
-    margin-left: 196px;
+    margin-left: 30px;
     margin-top: 30px;
     border: 1px solid whitesmoke;
     display: inline-block;
@@ -133,7 +133,7 @@ padding: 36px 61px;
     background-color: rgb(220, 220, 220);
 }
 .card-6{
-    margin-left: 196px;
+    margin-left:30px;
     margin-top: 30px;
     border: 1px solid whitesmoke;
     display: inline-block;
@@ -153,7 +153,7 @@ padding: 36px 61px;
     background-color: rgb(220, 220, 220);
 }
 .card-8{
-    margin-left: 196px;
+    margin-left: 30px;
     margin-top: 30px;
     border: 1px solid whitesmoke;
     display: inline-block;
@@ -163,7 +163,7 @@ padding: 36px 61px;
     background-color: rgb(220, 220, 220);
 }
 .card-9{
-    margin-left: 196px;
+    margin-left: 30px;
     margin-top: 30px;
     border: 1px solid whitesmoke;
     display: inline-block;
@@ -203,6 +203,77 @@ padding-left: 14px;
     color: #787885;
     padding-bottom: 17px;
 }
+.card-parent{
+    grid-template-rows: repeat(3,1fr);
+    margin-right: 247px;
+}
+.f-h{
+ margin: 50px 247px 104px 1094px ;
+ color: #E02C6D;
+font-size: large;
+}
+.img-3{
+    width: 404px;
+    height: 270px ;
+    /* display: inline-block; */
+}
+.last-img{
+    margin-left: 165px;
+    /* display: inline-block; */
+}
+.last-part{
+    margin-left: 96px;
+    margin-right: 105px;
+}
+.last-parent{
+display: flex;
+margin-right: 100px;
+margin-left: 60px;
+margin-bottom: 100px;
+}
+.last-title{
+    font-size: 38px;
+}
+.last-subtitle{
+   font-size: 16px;
+   color: #6C6C6C;
+   font-weight: bold;
+   margin-right: 200px;
+}
+.last-btn{
+    height: 44px;
+    width: 155px;
+    background-color: #E02C6D;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    margin-top:26px
+}
+.foot{
+    background-color: rgb(4, 4, 13);
+    color: white;
+    text-align: center;
+    padding: 50px 589px;
+}
+.foot-1{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.foot-2{
+    font-size: 14px;
+    font-weight: 30px;
+    margin-bottom: 3px;
+}
+.foot-3{
+    font-size: 14px;
+    font-weight: 30px;
+    margin-bottom: 17px;
+}
+.icon{
+    color: white;
+}
 @media screen and (max-width:600px) {
     .st-head{
         margin-top:60px;
@@ -214,9 +285,6 @@ padding-left: 14px;
 .a-div{
     content-visibility: hidden;
 }
-.img-div{
-    
-}
 .img-1{
     margin-top: 15px;
     margin-left: 11px;
@@ -224,10 +292,42 @@ padding-left: 14px;
     height:190px ;
     
 }
+.btn-1{
+  width: 194px;
+  height: 44px;
+}
 .title-1{
     font-size: 28px;
     margin-top: 22px;
     text-align: center;
+}
+.st-head{
+    margin-left: 100px;
+}
+.card-parent{
+    margin-left: 45px;
+}
+.card-1{
+    margin: 15px 20px 15px;
+}
+.card-2{
+    margin: 15px 20px 15px;
+}
+.card-3{
+    margin-left: 15px;
+}
+.card-4{
+    margin: 15px 20px 15px;
+}.card-5{
+    margin: 15px 20px 15px;
+}.card-6{
+    margin: 15px 20px 15px;
+}.card-7{
+    margin: 15px 20px 15px;
+}.card-8{
+    margin: 15px 20px 15px;
+}.card-9{
+    margin: 15px 20px 15px;
 }
 .subtitle-1{
     text-align: center;
@@ -235,8 +335,11 @@ padding-left: 14px;
 .part-1{
     margin-top: -12px;
 }
-.daddy{
-    width: 100%;
+.title-1{
+    margin-left: 5px;
+}
+.img-{
+    display: none;
 }
 .market{
     border: none;
