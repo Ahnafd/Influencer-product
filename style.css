@@ -1,0 +1,249 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.nav{
+ text-decoration: none;
+align-items: center;
+}
+.st-head{
+display: inline-block;
+margin-top:87px;
+margin-left: 120px;
+color: #3A3A3A;
+font-size: 24px;
+font-weight: 400px;
+}
+.a-div{
+    display: inline-block;
+    margin-left: 494px;
+    margin-right: 100px;
+    gap: 34px;
+    
+}
+a{
+    text-decoration: none;
+    color:#3A3A3A ;
+    margin-right:34px ;
+    font-size: 16px;
+    font-weight: 900px;
+}
+.part-1{
+    margin-left: 120px;
+    margin-top: 145px;
+    display: inline-block;
+}
+.title-1{
+    font-size: 52px;
+    color: #3A3A3A;
+   
+}
+.daddy{
+    display: flex;
+}
+.subtitle-1{
+    margin-top:9px;
+    font-size: 16px;
+    color: #3a3a3a
+    
+}
+  .btn-1{
+    height: 44px;
+    width:196 ;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    color:white;
+    border-radius: 41px;
+    font-size: 16px;
+    margin-top: 16px;
+    border: none;
+    font-weight: 500px;
+  }  
+  .img-1{
+  margin-right: 165px;
+  margin-top: 65px;
+  }
+  .market{
+    align-items: center;
+    border: 1px solid rgb(230, 225, 225);
+margin-right:  150px ;
+margin-left: 150px;  
+padding: 36px 61px;
+}
+.market-img{
+    margin-right: 5px;
+    margin-left: 5px;
+}  
+.title-3{
+    margin: 100px 570px 3px;
+    text-align: center;
+    font-size: 28px;
+    color: #3A3A3A;
+}
+.card-1{
+    margin-left: 196px;
+    margin-top: 30px;
+    border: 1px solid whitesmoke;
+    display: inline-block;
+    border-radius: 20px;
+    width: 329px;
+    height:476px ;
+    background-color: rgb(220, 220, 220);
+}
+.card-2{
+    margin-left: 196px;
+    margin-top: 30px;
+    border: 1px solid whitesmoke;
+    display: inline-block;
+    border-radius: 20px;
+    width: 329px;
+    height:476px ;
+    background-color: rgb(220, 220, 220);
+}
+.card-3{
+    margin-left: 196px;
+    margin-top: 30px;
+    border: 1px solid whitesmoke;
+    display: inline-block;
+    border-radius: 20px;
+    width: 329px;
+    height:476px ;
+    background-color: rgb(220, 220, 220);
+}
+.card-4{
+    margin-left: 196px;
+    margin-top: 30px;
+    border: 1px solid whitesmoke;
+    display: inline-block;
+    border-radius: 20px;
+    width: 329px;
+    height:476px ;
+    background-color: rgb(220, 220, 220);
+}
+.card-5{
+    margin-left: 196px;
+    margin-top: 30px;
+    border: 1px solid whitesmoke;
+    display: inline-block;
+    border-radius: 20px;
+    width: 329px;
+    height:476px ;
+    background-color: rgb(220, 220, 220);
+}
+.card-6{
+    margin-left: 196px;
+    margin-top: 30px;
+    border: 1px solid whitesmoke;
+    display: inline-block;
+    border-radius: 20px;
+    width: 329px;
+    height:476px ;
+    background-color: rgb(220, 220, 220);
+}
+.card-7{
+    margin-left: 196px;
+    margin-top: 30px;
+    border: 1px solid whitesmoke;
+    display: inline-block;
+    border-radius: 20px;
+    width: 329px;
+    height:476px ;
+    background-color: rgb(220, 220, 220);
+}
+.card-8{
+    margin-left: 196px;
+    margin-top: 30px;
+    border: 1px solid whitesmoke;
+    display: inline-block;
+    border-radius: 20px;
+    width: 329px;
+    height:476px ;
+    background-color: rgb(220, 220, 220);
+}
+.card-9{
+    margin-left: 196px;
+    margin-top: 30px;
+    border: 1px solid whitesmoke;
+    display: inline-block;
+    border-radius: 20px;
+    width: 329px;
+    height:476px ;
+    background-color: rgb(220, 220, 220);
+}
+.card-img{
+padding: 17px 15px 16px 14px;
+height: 256px;
+width: 300px;
+border-radius: 5px;
+}
+.card-title{
+font-size: 28px;
+font-weight: medium;
+padding-left: 14px;
+}
+.card-price{
+ font-family:"Inter", serif;
+ font-size: 24px;
+ font-weight: 60px;
+ padding-left: 14px;
+ padding-bottom: 10px;
+}
+.card-rating{
+    padding-left: 14px;
+    font-family: "Roboto", serif;
+    color: #787885;
+    padding-bottom: 17px;
+}
+.card-about{
+    padding-left: 14px;
+    font-size: 14px;
+    font-family:"Inter", serif;
+    color: #787885;
+    padding-bottom: 17px;
+}
+@media screen and (max-width:600px) {
+    .st-head{
+        margin-top:60px;
+        text-align: center;
+        font-weight: bolder;
+        font-style: normal;
+    }
+
+.a-div{
+    content-visibility: hidden;
+}
+.img-div{
+    
+}
+.img-1{
+    margin-top: 15px;
+    margin-left: 11px;
+    width: 202px;
+    height:190px ;
+    
+}
+.title-1{
+    font-size: 28px;
+    margin-top: 22px;
+    text-align: center;
+}
+.subtitle-1{
+    text-align: center;
+}
+.part-1{
+    margin-top: -12px;
+}
+.daddy{
+    width: 100%;
+}
+.market{
+    border: none;
+    grid-template-rows: repeat(4,4fr);
+    grid-template-columns: repeat(2,2fr);
+}
+.market-img{
+    margin-bottom: 20px;
+}
+}
